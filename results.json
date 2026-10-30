@@ -1,0 +1,36 @@
+[
+  {
+    "repo": "financial-planning-and-modeling",
+    "id": "rolling-forecast",
+    "title": "Revenue Forecast & Variance Review",
+    "role": "FP&A · Budgeting · Management reporting",
+    "question": "How does a transparent forecast compare with reported sales?",
+    "method": "Annual rolling-origin baseline: project next fiscal year revenue at 5% above the preceding year, then compare with FY2024 and FY2025 actuals. The 5% rate is an illustrative fixed budget assumption, not company guidance or a pre-registered forecast. FY2026 scenarios separately apply product growth of 0/3/6% and service growth of 5/10/15%.",
+    "result": "FY2025 reported revenue exceeded the illustrative budget by $5.57bn. FY2026 base-case revenue is $436.29bn.",
+    "limits": "Two annual comparisons are a worked FP&A example, not a statistically validated forecasting model. Annual public reports do not reveal internal monthly budgets, unit volumes or price changes. Scenario assumptions are analyst-created.",
+    "metrics": [
+      "FY2025 actual $416.16bn",
+      "Budget variance 1.36%",
+      "Base scenario $436.29bn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+    "period": "Apple FY2023–FY2025; scenarios explicitly labelled"
+  },
+  {
+    "repo": "financial-planning-and-modeling",
+    "id": "three-statement-model",
+    "title": "Integrated Three-Statement Model",
+    "role": "Corporate finance · Financial modelling",
+    "question": "Do operating assumptions flow consistently into cash and the balance sheet?",
+    "method": "FY2025 audited closing balance sheet is the opening position. FY2026 scenario: products +3%, services +10%, COGS proportional to revenue, opex +5%, D&A/capex/AR/inventory/AP proportional to revenue. Hold other balance-sheet lines constant, other expense at $321m and dividends at $15,421m. Apply FY2025 effective tax rate. No buybacks, new debt, SBC or OCI in this simplified scenario. D&A is included in operating costs and added back only in CFO.",
+    "result": "Projected closing cash is $137.98bn. The balance sheet balances to numerical precision, with retained earnings linked to net income and dividends.",
+    "limits": "This is an analyst scenario, not Apple guidance. Omitting buybacks and other financing means it cannot be interpreted as a likely cash balance. Public filing aggregates constrain operating detail.",
+    "metrics": [
+      "Scenario revenue $436.29bn",
+      "Scenario closing cash $137.98bn",
+      "Balance check $0m"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+    "period": "Apple FY2023–FY2025; scenarios explicitly labelled"
+  }
+]
